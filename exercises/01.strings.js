@@ -28,7 +28,7 @@
 
 /**
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
- * 
+ *
  */
 
 /**
@@ -53,11 +53,11 @@ let firstName = "";
 /**
  * @description
  * Create a variable called fullName. Assign it the values of firstName, middleName, and lastName
- * 
+ *
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat
  */
 
 /**
- * @description
- * commit and push this file then create a pull request
+ * @do
+ * include this file in a new pull request
  */
