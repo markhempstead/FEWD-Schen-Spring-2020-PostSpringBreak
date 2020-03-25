@@ -14,5 +14,11 @@ git pull upstream master
 
 if you do not have the repo:
 
-git clone https://github.com/AlbanyCanCodeCourses/FEWD-Schen-Spring-2020-PostSpringBreak.git
+git add .
+git commit -m 'work in progress'
+git pull origin master
 
+
+
+git remote remove upstream
+gir remote add upstream https://github.com/AlbanyCanCodeCourses/FEWD-Schen-Spring-2020-PostSpringBreak.git

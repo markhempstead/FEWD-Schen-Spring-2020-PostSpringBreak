@@ -25,32 +25,62 @@
       </section>
     </main>
 
-    <script src="js/strings.js"></script>
+    <!-- <script src="js/strings.js"></script> -->
 
     <script>
-      var str = "this is a string and it goes on and on and on";
+      // var obj = 'phone'
+      // console.log(obj[3])
 
-      console.log(str.toUpperCase());
-      console.log(str.replace("th", "dis"));
+      var greeting = "hello my name is slim shady";
 
-      console.log(str.substring(0, 7));
+      console.log(greeting.split(" "));
 
-      console.log(str.length);
+      var arr = [
+        "myComputer",
+        "myDocuments"
 
-      console.log(str.charAt(3));
+        // function add(a, b) {
+        //   return a + b;
+        // },
+        // { name: "ramon", age: 18 }
+      ];
 
-      console.log(str.charAt(str.length - 1));
+      console.log(arr[0]);
+      console.log(arr[1]);
 
-      var smallString = str.substring(0, 7);
+      var root = "c://";
 
-      console.log(smallString);
+      var path = arr.join("/");
 
-      var lastLetter = str.charAt(str.length - 1);
+      var absolutePath = root + path;
+      console.log(absolutePath);
 
-      console.log(lastLetter.indexOf("a"));
+      console.log(arr);
 
-      console.log(str.slice(0, 24) + " ...")
+      var myfile = "myFile";
+      arr.push(myfile);
 
+      console.log(arr);
+
+      // .push() adds to the end of the array
+      // .pop() removes from the end of the array
+      console.log(arr.sort());
+      console.log(arr.pop());
+      console.log(arr);
+
+
+      // .unshift([value]) adds an item to the beginning of the array
+      // .shift() - removes the first item of the array
+
+      console.log(arr.unshift("myFolder"));
+      console.log(arr);
+      console.log(arr.shift());
+      console.log(arr);
+
+      console.log(arr.length)
+      console.log(arr.indexOf("myComputer"))
+
+          
 
     </script>
   </body>
