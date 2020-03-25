@@ -38,7 +38,7 @@
  *
  */
 
-let firstName = "";
+// let firstName = "";
 
 /**
  * @description
@@ -59,5 +59,5 @@ let firstName = "";
 
 /**
  * @do
- * include this file in a new pull request
+ * include this file in a new commit
  */
