@@ -89,3 +89,24 @@ main {
 span {
   display: inline-block;
 }
+
+/* ********************* */
+/* ***  Form Events **** */
+/* ********************* */
+
+section:nth-of-type(2){
+  border: var(--border-sm);
+  box-shadow: var(--shadow-dark);
+  padding: 20px;
+}
+
+.message {
+  margin: 0;
+}
+.admit {
+  background-color: rgb(4, 161, 4);
+}
+
+.deny {
+  background-color: #f00;
+}
