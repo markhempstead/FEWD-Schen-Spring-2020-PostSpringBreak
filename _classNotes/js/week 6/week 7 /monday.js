@@ -97,3 +97,7 @@ for (var i = 0; i < post.length; i++) {
 console.log(pre)
 
 console.log(post)
+
+
+
+
