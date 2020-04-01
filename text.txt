@@ -1,10 +1,3 @@
-review strings
-review arrays
-review loops 
-fun with functions
-intro to objects
-
-
 Quick Start:
 
 If you do not have the class repository, run the following command from the terminal/ gitbash to get started quickly:
@@ -40,6 +33,10 @@ git pull upstream master
 git push origin master
 
 
-
+review strings
+review arrays
+review loops 
+fun with functions
+intro to objects
 esc
 :q
