@@ -22,6 +22,22 @@
  * create three varibles using the var, let, and const key words
  */
 
+var person1 = "George Washington";
+let person2 = "George Clinton";
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December"
+];
 /////////////////////////
 //////// Strings ////////
 /////////////////////////
@@ -38,17 +54,21 @@
  *
  */
 
-// let firstName = "";
+let firstName = "Ramon";
 
 /**
  * @description
  * Create a variable called middleName and set the value to your middle name.
  */
 
+let middleName = "Ambrose";
+
 /**
  * @description
  * Create a variable called lastName and set the value to your last name.
  */
+
+let lastName = "Vazquez";
 
 /**
  * @description
@@ -56,7 +76,7 @@
  *
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat
  */
-
+let fullName = firstName + " " + middleName + " " + lastName;
 /**
  * @do
  * include this file in a new commit and push

@@ -1,0 +1,44 @@
+Quick Start:
+
+If you do not have the class repository, run the following command from the terminal/ gitbash to get started quickly:
+1) git clone https://github.com/AlbanyCanCodeCourses/FEWD-Schen-Spring-2020-PostSpringBreak.git
+
+2) cd FEWD-Schen-Spring-2020-PostSpringBreak && code 
+or
+  Open FEWD-Schen-Spring-2020-PostSpringBreak in VSCode 
+
+
+Setting up class the class repo (nessecary to keep your copy in synced witn mine):
+
+1) Visit https://github.com/AlbanyCanCodeCourses/FEWD-Schen-Spring-2020-PostSpringBreak
+2) On the upper right of the page, just below the black navigation bar click on "FORK"
+3) Go to your GitHub profile and click on the FEWD-Schen-Spring-2020-PostSpringBreak repo
+4) Scroll down until you see the 'Clone or Download' Button on right side
+5) Click the 'clone or download' button and copy the link 
+6) In terminal/ gitbash run git clone [pasted link]
+7) In terminal/gibash run git remote -v .  You will will see two links, both pointed to the origin
+8) Run git remote add upstream https://github.com/AlbanyCanCodeCourses/FEWD-Schen-Spring-2020-PostSpringBreak.git
+9) In terminal/gibash run git remote -v . You will see 4 links, two pointed to the origin (your copy on your github profile) and two pointed to the remote (my copy on my profile)
+10) Open FEWD-Schen-Spring-2020-PostSpringBreak in VSCode 
+
+Important:
+In order to keep your copy in synced with mine you will have to make regular use of pulling from the upstream during your regular workflow:
+  
+
+After setting up your class repo (the long way) your new git workflow will look like the following:
+
+git add .
+git commit -m 'your thoughtful commit message'
+git pull upstream master
+git push origin master
+
+
+review strings
+review arrays
+review loops 
+fun with functions
+intro to objects
+esc
+:q
+
+git remote -v 
